@@ -1,0 +1,62 @@
+.text-justificado {
+    text-align: justify;
+}
+
+body {
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor-prinsipal {
+    background-color: #fff;
+}
+
+.articulo-tabla {
+    margin: 10em 0;
+}
+
+p {
+    color: #000;
+}
+
+.aside {
+    right: 0;
+    position: fixed;
+}
+
+.active-aside-bar {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+    padding: 1em !important;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+header {
+    background-image: url(../img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    align-self: flex-end;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000;
+}
+
+@media screen and (min-width: 800px) {
+    header {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    header {
+        height: 700px;
+    }
+}
